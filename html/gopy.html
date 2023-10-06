@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu Mô tô</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<style>
+.gopy {
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 20px;
+}
+
+h1 {
+        text-align: center;
+}
+
+.feedback-form {
+        background-color: #f9f9f9;
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 5px;
+}
+
+.form-group {
+        margin-bottom: 20px;
+}
+
+label {
+        display: block;
+        font-weight: bold;
+}
+
+textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        resize: vertical;
+}
+
+.submit-button {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+}
+</style>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="/image/Introduction.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li class="menu"><a href="index.html">Trang chủ</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Sản phẩm</a>
+                        <div class="dropdown-content">
+                            <a href="yamaha.html">Yamaha </a>
+                            <a href="suzuki.html">Suzuki</a>
+                            <a href="kawasaki.html">Kawasaki</a>
+                            <a href="honda.html">Honda</a>
+                        </div>
+                    </li>
+                    <li><a href="tintuc.html">Tin tức</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Liên hệ</a>
+                        <div class="dropdown-content">
+                            <a href="member.html">Các thành viên</a>
+                            <a href="gopy.html">Góp ý</a>
+                        </div>
+                    </li>
+                    <div class="search-box">
+                        <input type="text" placeholder="Tìm kiếm...">
+                        <button type="submit">Tìm kiếm</button>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="gopy">
+            <div class="content">
+                <div class="main">
+                    <h1>Biểu Mẫu Góp Ý</h1>
+                    <div class="feedback-form">
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Tên của bạn:</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email của bạn:</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="feedback">Góp ý của bạn:</label>
+                                <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-button">Gửi Góp ý</button>
+                        </form>
+                    </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 BẢN QUYỀN THUỘC VỀ BÙI DUY HOÀNG</p>
+    </footer>
+</body>
+
+</html>
